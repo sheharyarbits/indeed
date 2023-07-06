@@ -1,0 +1,40 @@
+.input-div {
+  border: 1px solid #949494;
+  padding: 9px 20px;
+  width: 44%;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-div i {
+  font-size: 11px;
+}
+
+.input-div label {
+  font-weight: 600;
+}
+
+input {
+  border: none;
+  outline: none;
+  font-size: 15px;
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .input-div {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .input-div label {
+    font-size: 13px;
+  }
+
+  input {
+    font-size: 13px;
+  }
+}

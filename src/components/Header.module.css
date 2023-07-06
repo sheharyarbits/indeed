@@ -1,0 +1,11 @@
+.post-job a {
+  text-decoration: none;
+  color: #575757;
+}
+
+@media screen and (min-width: 768px) {
+  .post-job {
+    border-left: 1px solid #8b8b8b;
+    padding: 0 10px;
+  }
+}

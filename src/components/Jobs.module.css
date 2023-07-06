@@ -1,0 +1,14 @@
+.jobs-page {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.job-detail {
+  padding-top: 10px;
+  position: relative;
+  width: 53%;
+}
+
+.job-card {
+  width: 45%;
+}
