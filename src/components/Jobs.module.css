@@ -12,3 +12,13 @@
 .job-card {
   width: 45%;
 }
+
+@media screen and (max-width: 767px) {
+  .job-detail {
+    display: none;
+  }
+
+  .job-card {
+    width: 100%;
+  }
+}

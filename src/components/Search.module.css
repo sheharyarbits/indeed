@@ -24,6 +24,14 @@ input {
   width: 100%;
 }
 
+.dropdown button {
+  font-size: 14px !important;
+  padding: 10px 20px;
+}
+.dropdown ul {
+  font-size: 14px !important;
+}
+
 @media screen and (max-width: 991px) {
   .input-div {
     width: 100%;

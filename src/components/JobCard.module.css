@@ -29,3 +29,6 @@
   font-size: 13px;
   color: #6f6f6f;
 }
+
+@media screen and (max-width: 767px) {
+}

@@ -6,7 +6,7 @@ import JobDetail from "./JobDetail";
 const Jobs = () => {
   return (
     <div className={styles["jobs-page"]}>
-      <div className="d-flex justify-content-between">
+      <div className="d-flex justify-content-between px-4">
         <div className={styles["job-card"]}>
           <p className="mb-3">Jobs based on your activity on Indeed</p>
           <JobCard />
