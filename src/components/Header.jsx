@@ -3,14 +3,15 @@ import MainLogo from "../assets/images/ukraine_support.7ad2b5d444bc427dbc5d.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell, faMessage, faUser } from "@fortawesome/free-solid-svg-icons";
 import styles from "./Header.module.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <nav class="navbar bg-body-tertiary navbar-expand-md border-bottom ">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">
-          <img src={MainLogo} width="50px" alt="logo" />
-        </a>
+        <Link to="/" className="text-decoration-none text-black">
+          <h1>LOGO</h1>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
